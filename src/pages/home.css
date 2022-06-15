@@ -1,0 +1,26 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 36px;
+}
+
+.player-card {
+  width: 360px;
+  padding: 6px 16px;
+  margin-bottom: 2px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,38 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+}
+
+.Profile > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 90px;
+  object-fit: cover;
+}
+
+.Profile > .title {
+  margin: 26px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #6C6C6C;
+}
+
+.Profile .status {
+  width: 280px;
+  color: #6C6C6C;
+  display: flex;
+  flex-direction: column;
+}
+
+.Profile > .status > .iten {
+  display: flex;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.Profile > .status > .iten .iten-data {
+  color: #ff0000;
+}
