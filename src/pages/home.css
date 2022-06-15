@@ -15,12 +15,96 @@ h1 {
   margin-bottom: 36px;
 }
 
-.player-card {
-  width: 360px;
-  padding: 6px 16px;
-  margin-bottom: 2px;
-  border: 1px solid black;
-  display: flex;
-  justify-content: space-between;
+.separator {
+  margin-bottom: 16px;
+  color: rgb(158, 158, 158);
 }
 
+.tournament-card {
+  width: 100%;
+  max-width: 460px;
+  padding: 6px;
+  background: #F1F1F1;
+  box-shadow: 0 0 6px 0 rgba(00, 00, 00, 0.25);
+  border-radius: 5px;
+  margin-bottom: 36px;
+  
+}
+
+.tournament-card .title {
+  font-size: 18px;
+  color: #414141;
+  padding: 12px 16px;
+}
+
+.tournament-card .tournament-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+  color: #000000;
+}
+
+.tournament-card .tournament-data .date {
+  width: 100px;
+  height: 40px;
+  text-align: start;
+  font-size: 26px;
+}
+
+.tournament-card .tournament-data p {
+  font-size: 16px;
+}
+
+.tournament-card .tournament-data button {
+  width: 100px;
+  height: 40px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 rgba(00, 00, 00, 0.25);
+}
+
+.tournament-card .tournament-data button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 4px 0 rgba(00, 00, 00, 0.25);
+}
+
+.top-players {
+  width: 100%;
+  max-width: 460px;
+  padding: 6px;
+  background: #F1F1F1;
+  box-shadow: 0 0 6px 0 rgba(00, 00, 00, 0.25);
+  border-radius: 5px;
+}
+
+.top-players .title {
+  font-size: 18px;
+  color: #414141;
+  padding: 12px 16px;
+}
+
+.player-card {
+  width: 100%;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.player-card:hover {
+  background: rgba(00, 00, 00, 0.05);
+}
+
+.player-card .profile-pic {
+  width: 46px;
+  height: 46px;
+  border-radius: 90px;
+  object-fit: cover;
+  margin-right: 18px;
+}
+
+.player-card > p {
+  font-weight: 500;
+}
