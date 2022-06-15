@@ -11,7 +11,7 @@ function Profile() {
   let { nickname } = useParams()
 
   useEffect(() => {
-    const playerURL = `http://localhost:5000/p/${nickname}`
+    const playerURL = `https://badminton-etec.herokuapp.com/p/${nickname}`
     console.log(nickname)
     axios.get(playerURL)
       .then(res => {
