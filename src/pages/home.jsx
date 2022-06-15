@@ -8,7 +8,7 @@ function Home() {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    axios.get('https://badminton-etec.herokuapp.com/')
+    axios.get('https://badminton-etec.herokuapp.com/p/')
       .then(res => {
         const listaPlayers = (res.data).sort((a, b) => (a.wins < b.wins) ? 1 : -1)
         console.log(listaPlayers)
